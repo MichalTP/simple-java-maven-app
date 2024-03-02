@@ -29,10 +29,5 @@ pipeline {
                 echo "Complete3"
             }
         }
-        stage('Aktualizacja') {
-            steps {
-                echo "Aktualizacja"
-            }
-        }
     }
 }
