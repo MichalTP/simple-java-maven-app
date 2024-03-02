@@ -29,5 +29,10 @@ pipeline {
                 echo "Complete3"
             }
         }
+        stage('Add Bew Build') {
+            steps {
+                echo "New Build added"
+            }
+        }
     }
 }
